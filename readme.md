@@ -32,6 +32,10 @@ System Preferences > Keyboard > Input Sources > Automiacally switch to a documen
 
 defaults write com.apple.inputmethod.CoreChineseEngineFramework shuangpinLayout 5
 
+### Use xiaohe(小鹤双拼)
+
+This is automatically supported in macOS `input source` settings
+
 ### zsh config
 
 see .zshrc
@@ -46,7 +50,7 @@ add following to ~/.gitconfig
 
 ```bash
 [core]
-   excludesfile = /Users/frw/.gitignore_global"
+   excludesfile = "~/.gitignore_global"
 ```
 
 ### Remove multiple version of edge at System Preferences > General > Default Web Browser
@@ -70,3 +74,7 @@ sudo xattr -r -d com.apple.quarantine /Applications/Clash\ for\ Windows.app
 ### Sort files and folders like Windows in Finder
 
 Finder > Settings > Advanced > Keep folders on top when sorting by name
+
+### Open in VSCode from Finder
+
+Use mac automation, check this [link](https://www.youtube.com/watch?v=dcjevVMhpoM&ab_channel=MerillFernando)
